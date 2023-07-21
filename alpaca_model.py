@@ -26,7 +26,7 @@ import transformers
 from peft import PeftModel
 from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer
 
-from utils.callbacks import Iteratorize, Stream
+#from utils.callbacks import Iteratorize, Stream
 from utils.prompter import Prompter
 
 
